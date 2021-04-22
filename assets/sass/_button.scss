@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: $padding-sm $padding-md;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  opacity: 1;
+  transition: opacity $transition-time ease-in-out;
+
+  &--primary {
+    background: linear-gradient(to right, $lime-green, $bright-cyan);
+    color: $white;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
