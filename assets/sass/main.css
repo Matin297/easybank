@@ -330,7 +330,7 @@ a {
 
 .hero__image {
   color: transparent;
-  background-image: url(/images/bg-intro-mobile.svg);
+  background-image: url(../../images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
